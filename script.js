@@ -48,8 +48,14 @@ function fact(num){
 }
 function factorial(){
     let num = prompt("Choose the number whose factorial you want to find: ");
+    if(num == null || num == ""){
+        
+    }
+    else{
     let number = fact(num);
     alert("Factorial of a number " + num + " is: " + number);
+    }
+    
 }
 //largerNumber script
 
