@@ -1,0 +1,30 @@
+body{
+    font-family: monospace;
+    font-size: 16px;
+    padding: 20px;
+}
+.button{
+    font-size: 20px;
+    background: transparent;
+    width: 150px;
+    padding: 10px 0;
+}
+#mycanvas{
+    position: relative;
+    right: 230px;
+    bottom: 20px;
+}
+.header__text{
+    font-size: 35px;
+    margin-bottom: 50px;
+    color: tomato;
+}
+.task-1, .task-2{
+    margin-bottom: 50px;
+}
+.text{
+    margin: 20px 0;
+}
+.title{
+    margin: 30px 0;
+}
